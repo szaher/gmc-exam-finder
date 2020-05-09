@@ -4,7 +4,9 @@ GMC Exam Slot Finder
 This script will help doctors who would like to book an exam slot with [GMC](https://webcache.gmc-uk.org/ecustomer_enu/index.aspx) to keep monitoring the available bookings till they find a slot in the required country on the required date(month).
 
 
-###. Prerequisites
+Prerequisites
+-------------
+
 * Download Selenium driver from [Here](https://github.com/mozilla/geckodriver/releases) 
     * Download the one valid for your operating system
     * Extract it
@@ -14,7 +16,9 @@ This script will help doctors who would like to book an exam slot with [GMC](htt
     * You can follow instructions available [Here](https://support.google.com/accounts/answer/185833?hl=en)
     * This is required to send emails in case the script found a match.
 
-###. Installation
+Installation
+-------------
+
 * Make sure you have downloaded Selenium driver 
 * Place the selenium driver next to lucinda.py script
 * Rename to selenium driver to `geckodriver`
@@ -46,11 +50,13 @@ This script will help doctors who would like to book an exam slot with [GMC](htt
       --month MONTH         Month of exam
     ```
   
-###. How it works
+How it works
+------------
 The program runs with your GMC username & password and keeps refreshing the website till it finds a match or your count is finished.
 If it found a match it will send an email to your provided email to notify you.
 
-####. Run it
+Run it
+------
 
 * Execute the following command
     ```shell script
@@ -58,4 +64,4 @@ If it found a match it will send an email to your provided email to notify you.
     ```
 
 Thank You!
-========== 
+---------- 
